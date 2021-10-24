@@ -4,30 +4,47 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png"> -->
+  <link rel="stylesheet" href="style.css">
   
   <title>Frontend Mentor | Project tracking intro component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
+    .attribution {display:none; font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
 <body>
-  Product
-  Features
-  Pricing
-  Login
 
-  New
-  Monograph Dashboard
+  <main>
+     <div class="main_container">
+        <div class="upper_container">
+             <div class="logo">
+                   <img src="./images/logo.svg" alt="Logo">
+             </div>
+             <div class="menu_icon">
+                  <img src="./images/icon-hamburger.svg" alt="HamBurger">
+             </div>
+        </div>
 
-  Powerful insights into your team
-  Project planning and time tracking for agile teams
+        <div class="svg">
 
-  Schedule a demo
-  to see a live preview
+        </div>
+        
+        <div class="lower_container">
+              <p class="para1"> <span class="col1">New</span><span class="col2">  Monograph Dashboard</span></p>
+              <p class="para2">Powerful insights into your team</p>
+              <p class="para3">  Project planning and time tracking for agile teams</p>
+
+              <div class="buttons">
+                   <button>  Schedule a demo</button>
+                   <button>  to see a live preview</button>
+              </div>
+              
+        </div>
+     </div>
+  </main>
   
   <footer>
     <p class="attribution">

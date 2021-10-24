@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid cadetblue; */
+}
+
+body{
+overflow: hidden;
+font-family: Barlow;
+}
+
+.main_container{
+    margin: 2em auto;
+    width: 90%;
+}
+
+.main_container .upper_container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_container .logo{
+   transform: scale(0.78);
+}
+
+.main_container .menu_icon{
+    transform: scale(0.9);
+ }
+
+
+.svg{
+    margin-top: 1em;
+    width: 145%;
+    height: 245px;
+    /* min-height: 145px; */
+    background: url("./images/illustration-devices.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* border: 1px solid    magenta; */
+}
+.lower_container{
+ border: 1px solid magenta;
+ text-transform: uppercase;
+ padding: 1em 0.5em;
+}
+
+.lower_container .col1{
+  background-color: hsl(230, 29%, 20%);
+  color: white;
+  padding: 0.3em 0.7em;
+  font-weight: 400;
+  font-size: 0.78em;
+  border-radius: 40px;
+  margin-right: 0.5em;
+}
+
+.lower_container .col2{
+    border:1px solid orange;
+   letter-spacing: 3px;
+   font-size: 0.78em;
+   font-weight: 400;
+   margin-left: 0.5em;
+   color:  hsl(230, 11%, 40%);
+  }
+
+  .lower_container .para1, .para2, .para3{
+      margin: 0.6em 0;
+      /* padding: 0 1em; */
+      border: 1px solid mediumblue;
+  }
+
+  .para2{
+      font-family:Barlow Condensed;
+     font-weight: bolder;
+      font-size:1.9em;
+   color:hsl(230, 29%, 20%);
+  }
+
+  .para3{
+    font-size:1.1em;
+    color: hsl(230, 11%, 40%);
+    font-weight: 400;
+    text-transform: capitalize;
+   }
