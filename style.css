@@ -9,13 +9,21 @@
 }
 
 body{
-overflow: hidden;
 font-family: Barlow;
+
 }
 
 .main_container{
     margin: 2em auto;
     width: 90%;
+   
+}
+
+.svg_container{
+    margin: 2.5em 0;
+    width:95vw;
+    overflow: hidden;
+  /* border: 1px solid cyan; */
 }
 
 .main_container .upper_container{
@@ -33,6 +41,8 @@ font-family: Barlow;
 
 
 .svg{
+    position: relative;
+    overflow: hidden;
     margin-top: 1em;
     width: 145%;
     height: 245px;
@@ -40,10 +50,10 @@ font-family: Barlow;
     background: url("./images/illustration-devices.svg");
     background-repeat: no-repeat;
     background-size: contain;
-    /* border: 1px solid    magenta; */
+    /* border: 1px solid magenta; */
 }
 .lower_container{
- border: 1px solid magenta;
+ /* border: 1px solid magenta; */
  text-transform: uppercase;
  padding: 1em 0.5em;
 }
@@ -59,7 +69,7 @@ font-family: Barlow;
 }
 
 .lower_container .col2{
-    border:1px solid orange;
+    /* border:1px solid orange; */
    letter-spacing: 3px;
    font-size: 0.78em;
    font-weight: 400;
@@ -70,10 +80,11 @@ font-family: Barlow;
   .lower_container .para1, .para2, .para3{
       margin: 0.6em 0;
       /* padding: 0 1em; */
-      border: 1px solid mediumblue;
+      /* border: 1px solid mediumblue; */
   }
 
   .para2{
+      /* border: 1px solid hotpink; */
       font-family:Barlow Condensed;
      font-weight: bolder;
       font-size:1.9em;
@@ -81,8 +92,45 @@ font-family: Barlow;
   }
 
   .para3{
-    font-size:1.1em;
+    font-size:1em;
     color: hsl(230, 11%, 40%);
     font-weight: 400;
-    text-transform: capitalize;
+    text-transform: none;
    }
+
+
+   .buttons{
+       display: flex;
+       justify-content: space-around;
+       margin-top: 1.5em;
+   }
+   
+   .btn1{
+       background-color:  hsl(0, 100%, 68%);
+       text-transform: uppercase;
+       color: white;
+       padding: 0.7em 1em;
+       border-width: 0px;
+       border-radius: 6px;
+       font-family:Barlow Condensed;
+       letter-spacing: 1.5px;
+       font-weight: 700;
+   }
+
+   .btn2{
+       padding: 0 0.5em;
+    text-transform: uppercase;
+    background-color: white;
+    color: hsl(231, 7%, 65%) ;
+    border-width: 0px;
+     font-family:Barlow Condensed;
+    letter-spacing: 1.2px;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
