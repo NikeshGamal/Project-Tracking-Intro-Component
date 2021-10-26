@@ -5,12 +5,12 @@ const mobNav = document.querySelector('.mob_nav');
 
 hamburgerMenu.addEventListener('click',(e)=>{
      mainCon.style.filter="blur(2px)";
-     mobNav.style.display="block";
      closeMenu.style.display="block";
+     mobNav.style.left="49.8%";
 });
 
 closeMenu.addEventListener('click',(e)=>{
     mainCon.style.filter="blur(0px)";
-    mobNav.style.display="none";
-    closeMenu.style.display="none";
+    // closeMenu.style.display="none";
+    mobNav.style.left="100%";
 });

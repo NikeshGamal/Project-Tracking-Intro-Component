@@ -15,26 +15,27 @@ font-family: Barlow;
 .menu_icon .hori_nav{
    display: none;
 }
+
 .mob_nav{
-    background-color: white ;
     position:absolute;
+    top: 0;
+    left: 100%;
+    transition:all 500ms linear;
+    background-color: white ;
     width: 50%;
     height: 50%;
-    top: 0em;
-    left: 49.8%;
     padding: 1.4em;
-    display: flex;
+    /* display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: column; */
     text-transform: uppercase;
     font-family: Barlow Condensed;
     font-weight: 500;
     letter-spacing: 1.5px;
     font-size: 1.3em;
     box-shadow:1px 1px 3px hsl(231, 7%, 65%), -1px -1px 3px hsl(231, 7%, 65%);
-    display: none;  
-    /* max-width: 248px; */
+   /* display: none;   */
 }
 
 
@@ -43,11 +44,10 @@ font-family: Barlow;
    left: 90%;
    transform: scale(0.9);
 }
+
 .mob_nav img:hover,.hamMenu{
     cursor: pointer;
 }
-
-
 
 .mob_nav ul{
     display: flex;
