@@ -16,11 +16,12 @@ font-family: Barlow;
    display: none;
 }
 .mob_nav{
-    background-color: white;
+    background-color: white ;
     position:absolute;
-    width: 85%;
-    top: 5em;
-    left: 22%;
+    width: 50%;
+    height: 50%;
+    top: 0em;
+    left: 49.8%;
     padding: 1.4em;
     display: flex;
     justify-content: center;
@@ -36,6 +37,18 @@ font-family: Barlow;
     /* max-width: 248px; */
 }
 
+
+.mob_nav img{
+   position: relative;
+   left: 90%;
+   transform: scale(0.9);
+}
+.mob_nav img:hover,.hamMenu{
+    cursor: pointer;
+}
+
+
+
 .mob_nav ul{
     display: flex;
     flex-direction: column;
@@ -50,12 +63,15 @@ font-family: Barlow;
 
 
 .mob_nav li{
-    width: 55%;
+    width: 75%;
     list-style-type: none;
     margin: 0.5em;
 }
 
+
+
 .main_container{
+    /* filter: blur(2px); */
     margin: 2em auto;
     width: 90%;
    
@@ -174,7 +190,15 @@ font-family: Barlow;
     opacity: 0.7;
     cursor: pointer;
 }
+/* .section1,.section2{
+     width: 140%;
+     border: 1px solid orange;
+ } */
 
+.section1 li:hover, .section2 li:hover{
+    cursor: pointer;
+    border-bottom: 1px solid hsl(231, 7%, 65%);  
+}
 
 @media screen and (min-width:273px) and (max-width:343px){    
 .svg_container{
